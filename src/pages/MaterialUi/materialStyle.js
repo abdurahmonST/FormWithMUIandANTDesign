@@ -6,11 +6,24 @@ export const MaterialWrapper = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 1px solid black;
+    margin: 0  500px;
+    padding: 20px 0;
 
     form {
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+
+    .StepperWrapper {
+        display: flex;
+        margin: 50px;
+
+        .MakeColumn {
+            display: flex;
+            flex-direction: column;
+        }
     }
 `;
 
